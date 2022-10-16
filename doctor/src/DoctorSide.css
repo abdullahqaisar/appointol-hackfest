@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.doctorSide {
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+h2 {
+    margin: 5px 35px;
+}
+
+.doctorForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pres_form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 5px;
+    padding: 5px;
+}
+
+textarea {
+    margin-left: 10px;
+}
+
+input {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.form2Buttons {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.addMedicineButtons {
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+
+.collapsible{
+    width: 60%;
+}
+.collapsible .content {
+    padding: 6px;
+    background-color: #eeeeee;
+}
+
+.collapsible .header {
+    background-color: #dddddd;
+    padding: 6px;
+    cursor: pointer;
+}
+.docInput{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-bottom: none;
+}

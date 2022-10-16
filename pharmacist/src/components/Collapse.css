@@ -1,0 +1,15 @@
+.trigger{
+    color: blue;
+    background-color: aqua;
+}
+.individual{
+    padding-top: 25px;
+}
+.editableArea
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink:0;
+    background-color:lavender ;
+}

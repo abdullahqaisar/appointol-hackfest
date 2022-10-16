@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hospitalSide{
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.collapsible{
+    margin: 5px 5px;
+}
+.collapsible .content {
+    padding: 6px;
+    background-color: #eeeeee;
+}
+.collapsible .header {
+    background-color: #dddddd;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.record{
+    margin: 10px 0px;
+}
+.checkPatient{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(1, 211, 36);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.checkPatient:hover{
+    background-color: rgb(0, 103, 199);
+
+}
